@@ -13,15 +13,10 @@
 <BODY>
 <div> <p> <h1 class="font" align="center" ><font color="red"> СЕГОДНЯ </font> </br> </h1> <h2 align="center" ><font color="blue"> ОДИН ИЗ САМЫХ ПОПУЛЯРНЫХ ТОВАРОВ </br> ПО ОТЛИЧНОЙ ЦЕНЕ </br> ВЕСЬ КАТАЛОГ ТОВАРОВ МОЖЕТЕ ПОСМОТРЕТЬ </br> &emsp;&emsp;&emsp;&emsp;&emsp;<img src="SaleLanding.github.io/STRELKA.png"  width="40" height="45">&emsp;&emsp;&emsp;&emsp;&emsp;<img src="SaleLanding.github.io/STRELKA.png"  width="40" height="45">&emsp;&emsp;&emsp;&emsp;&emsp;<img src="SaleLanding.github.io/STRELKA.png"  width="40" height="45">&emsp;&emsp;&emsp;&emsp;&emsp;<img src="SaleLanding.github.io/STRELKA.png"  width="40" height="45">&emsp;&emsp;&emsp;&emsp;&emsp; </br> <a  href="https://www.waudog.com/ua/"  target="_blank"><font color="BLUE"> КАТАЛОГ ТОВАРОВ <font color="RED"> WAUDOG </a></font> </h2> </p> </div>
 </body>
-<form action="mailto:d.voitenko1995@gmail.com" enctype="text/plain"></form>
-<form>
-  <fieldset>
-    <legend>Контактная информация</legend>
-    <p><label for="name">Имя <em>*</em></label><input type="text" id="name"></p>
-    <p><label for="email">E-mail</label><input type="email" id="email"></p>
-	<p><label for="name">Товар <em>*</em></label><input type="text" id="name"></p>
-	<p><label for="name">Контактный номер <em>*</em></label><input type="text" id="name"></p>
-  </fieldset>
-<p><input type="submit" type="button" value="Отправить"></p>
+<form action="send.php" method="post">
+<input type="text" name="fio" placeholder="Укажите ФИО">
+<input type="text" name="email" placeholder="Укажите e-mail">
+<input type="submit" value="Отправить">
 </form>
+
 </html>
