@@ -6,7 +6,7 @@
 <?php
 //проверяем, существуют ли переменные в массиве POST
 if(!isset($_POST['fio']) ($_POST['numer']) and !isset($_POST['email'])){
- ?> <form action="send.php" method="post">
+ ?> <form action="index.html" method="post">
 <input type="text" name="fio" placeholder="Укажите ФИО" required>
 <input type="text" name="email" placeholder="Укажите e-mail" required>
 <input type="text" name="numer" placeholder="Контактный номер" required>
