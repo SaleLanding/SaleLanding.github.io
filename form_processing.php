@@ -6,7 +6,7 @@ $email = htmlspecialchars($_POST["email"]);
 $tema = htmlspecialchars($_POST["tema"]);
 $message = htmlspecialchars($_POST["messages"]);
 /* Устанавливаем e-mail адресата */
-$myemail = "my_email@mail.ru";
+$myemail = "d.voitenko1995@gmail.com";
 /* Проверяем заполнены ли обязательные поля ввода, используя check_input 
 функцию */
 $your_name = check_input($_POST["your_name"], "Введите ваше имя!");
@@ -30,7 +30,7 @@ $from  = "From: $yourname <$email> \r\n Reply-To: $email \r\n";
 mail($myemail, $tema, $message_to_myemail, $from);
 ?>
 <p>Ваше сообщение было успешно отправлено!</p>
-<p>На <a href="index.php">Главную >>></a></p>
+<p>На <a href="index.html">Главную >>></a></p>
 <?php
 /* Если при заполнении формы были допущены ошибки сработает 
 следующий код: */
